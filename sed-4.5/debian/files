@@ -1,0 +1,3 @@
+sed-dbgsym_4.5-2_amd64.deb debug optional automatic=yes
+sed_4.5-2_amd64.buildinfo utils required
+sed_4.5-2_amd64.deb utils required

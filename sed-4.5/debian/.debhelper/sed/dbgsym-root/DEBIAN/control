@@ -1,0 +1,12 @@
+Package: sed-dbgsym
+Source: sed
+Version: 4.5-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Clint Adams <clint@debian.org>
+Installed-Size: 121
+Depends: sed (= 4.5-2)
+Section: debug
+Priority: optional
+Description: debug symbols for sed
+Build-Ids: 6159a59ecf21491e91654ffb419520bd5bab831e

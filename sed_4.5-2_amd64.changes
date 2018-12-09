@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 17 Oct 2018 18:39:10 -0400
+Source: sed
+Binary: sed
+Built-For-Profiles: nobiarch nocheck
+Architecture: amd64
+Version: 4.5-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Clint Adams <clint@debian.org>
+Changed-By: Clint Adams <clint@debian.org>
+Description:
+ sed        - GNU stream editor for filtering/transforming text
+Closes: 695157
+Changes:
+ sed (4.5-2) unstable; urgency=medium
+ .
+   * Enable ACL support, thanks to Sven Joachim.  closes: #695157.
+   * Set packager to Debian.
+Checksums-Sha1:
+ 4e571d2b8834a499d6d05c370ada6ab6d9b66b89 97372 sed-dbgsym_4.5-2_amd64.deb
+ 4ec9e8fe8169f384c729a84c2c6f4ce12a121a54 5764 sed_4.5-2_amd64.buildinfo
+ 9111c612f8bf4372beb7aa98c53c95d1aacdcb7a 329176 sed_4.5-2_amd64.deb
+Checksums-Sha256:
+ 56193ac22f64e2425e8b13ced98c8bf0d8aaf7f9c5db5691f7ca3dd3f2b0de0b 97372 sed-dbgsym_4.5-2_amd64.deb
+ 7bacb31a17d226f1070a9fb397049c92208869ee796b3166ef591ea13bf82dab 5764 sed_4.5-2_amd64.buildinfo
+ 7901c0074c8bc9195bbdc7793525b91ebb2af2358a620800c06b6a4228f83675 329176 sed_4.5-2_amd64.deb
+Files:
+ 8cff8eb6c97943815224a44dbeddac3c 97372 debug optional sed-dbgsym_4.5-2_amd64.deb
+ 8b84e2fdc7ca40fa2116ba0fd38cc763 5764 utils required sed_4.5-2_amd64.buildinfo
+ 136816ad53cc24b16662eb6a2e969e51 329176 utils required sed_4.5-2_amd64.deb
